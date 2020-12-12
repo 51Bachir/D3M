@@ -39,7 +39,6 @@ contract D3MAHOM is ERC20 {
             __balanceOf[_from] >= _value) {
             __balanceOf[_from] -= _value;
             __balanceOf[_to] += _value;
-            // Missed from the video
             __allowances[_from][msg.sender] -= _value;
             return true;
         }
