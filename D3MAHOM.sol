@@ -6,7 +6,7 @@ import "ERC223.sol";
 import "ERC223ReceivingContract.sol";
 import "github.com/OpenZeppelin/zeppelin-solidity/contracts/math/SafeMath.sol";
 
-contract MyFirstToken is Token("MFT", "My First Token", 7, 1000), ERC20, ERC223 {
+contract D3MAHOM is Token("D3M", "D3MAHOM", 7, 1000), ERC20, ERC223 {
     
     using SafeMath for uint;
 
